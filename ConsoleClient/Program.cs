@@ -9,7 +9,7 @@ namespace ConsoleClient
             string testdir = @"d:\Export\";
 
 
-            BaseWork.Manager.GetD(testdir);
+            BaseWork.Manager.PrintTree(testdir);
 
 
             Console.ReadLine();
